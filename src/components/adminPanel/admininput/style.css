@@ -1,0 +1,52 @@
+
+.cv-admin_panel-input {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.cv-admin_panel-input-container {
+   width: 40%;
+   background: white;
+   padding: 4rem 2rem ;
+}
+.cv-admin_panel-inputs {
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.cv-admin_panel-inputs-file {
+    display: flex;
+}
+.cv-admin_panel-inputs-file-1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.cv-admin_panel-inputs-file-1 label {
+    margin-bottom: 0.5rem;
+}
+.cv-admin_panel-input-container button {
+    padding: 1rem 2rem;
+    width: 99%;
+    background-color: tomato;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width: 980px) {
+    .cv-admin_panel-inputs-file {
+        flex-direction: column;
+    }
+    .cv-admin_panel-input-container {
+        width: 70%;
+    }
+    
+}

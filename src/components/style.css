@@ -1,0 +1,112 @@
+.cv-homepage-hero {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url("assets/coverpage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.cv-homepage-hero h1 {
+  font-size: 8rem;
+  margin-left: 2rem;
+}
+
+.cv-homepage-hero h4 {
+  font-size: 2rem;
+  color: yellow;
+  margin-left: 3rem;
+}
+
+.cv-homepage-genre {
+  background: #283048;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  margin-top: 100vh;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(191, 191, 191, 0.1) 0px 4px 12px;
+}
+
+.cv-homepage-genre-caterories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.cv-homepage-genre h2 {
+  font-size: 3rem;
+  margin: 1rem 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.cv-homepage-genre-cards {
+  background-color: white;
+  padding: 1.5rem 4rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/* mobile */
+@media only screen and (min-width: 275px) and (max-width: 480px) {
+  .cv-homepage-hero {
+    background-image: url("assets/coverpagemobile.jpg");
+  }
+  .cv-homepage-genre {
+     align-items: center;
+  }
+  .cv-homepage-hero h1 {
+    font-size: 4rem;
+  }
+  .cv-homepage-genre {
+    width: 100%;
+  }
+  .cv-homepage-genre-cards {
+    padding: 1rem 1rem;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+  }
+  .cv-homepage-genre h2 {
+    font-size: 1.5rem;
+  }
+  .cv-homepage-genre-caterories {
+    justify-content: space-between;
+  }
+}
+.cv-homepage_moviepost {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .cv-homepage-hero {
+    background-image: url("assets/coverpagemobile.jpg");
+  }
+  /* .cv-homepage-genre {
+    width: 100%;
+  }  */
+  .cv-homepage-genre-cards {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .cv-homepage-genre h2 {
+    font-size: 2rem;
+  }
+}

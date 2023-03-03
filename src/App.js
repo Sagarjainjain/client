@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import AdminInput from './components/adminPanel/admininput/adminInput';
+import AdminPanel from './components/adminPanel/adminpanel';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AdminSignup from './components/adminPanel/adminsignup.jsx/admin-signup';
+import HomePage from './components/homePage';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path="/admin-panel/add" exact element={<AdminInput />} />
+          <Route path="/admin-panel" exact element={<AdminPanel />} />
+          <Route path="/admin" exact element={<AdminSignup />} />
+          <Route path="/" exact element={<HomePage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

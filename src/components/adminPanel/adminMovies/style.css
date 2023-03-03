@@ -1,0 +1,66 @@
+.cv-admin_panel-list {
+    margin: 1rem 2rem;
+}
+
+.cv-admin_panel-list_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv-admin_panel-list_heading button {
+    background-color: #4681f4;
+    text-align: center;
+    padding: 1rem 2rem;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cv-admin_panel-lists_post {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    width: 98%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    border-radius: 5px;
+}
+
+.cv-admin_panel-lists_post img{
+    max-height: 100px;
+    object-fit: contain;
+
+}
+.cv-admin_panel-lists_title {
+    margin:0 2rem 0 1rem;
+}
+
+.cv-admin_panel-lists_title p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 740px) {
+    .cv-admin_panel-list_heading button {
+        font-size: 20px;
+    }
+   .cv-admin_panel-list_heading h1 {
+    font-size: 1.5rem;
+   }
+}
+@media screen and (max-width: 542px) {
+        .cv-admin_panel-list_heading button {
+        font-size: 15px;
+    }
+       .cv-admin_panel-list_heading h1 {
+    font-size: 1.2rem;
+   }
+}
