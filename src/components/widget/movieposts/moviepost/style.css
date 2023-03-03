@@ -1,0 +1,37 @@
+.cv-moviepost {
+    max-width: 250px;
+    background-color: white;
+    min-height: 375px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cv-moviepost-media {
+   width: 100%;
+
+}
+.cv-moviepost-media img {
+    width: 100%;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+}
+.cv-moviepost-title {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    align-items: center;
+       margin-bottom: 0.5rem;
+}
+.cv-moviepost-title h4 {
+    font-size: 1.5rem;
+ 
+}
+.cv-moviepost-title span {
+    display: flex;
+    justify-content: space-between;
+    color: #FDCC0D;
+    align-items: center;
+}
+.cv-moviepost-title span h5 {
+
+    color: black;
+}

@@ -1,0 +1,102 @@
+.cv-admin_panel-nav {
+  width: 100%;
+  background-color: #252525;
+  color: white;
+
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cv-admin_panel-logo h5 {
+  color: rgb(255, 183, 0);
+  font-size: 1rem;
+}
+
+.cv-admin_panel-links {
+  display: flex;
+  align-items: center;
+}
+
+.cv-admin_panel-links li {
+  list-style: none;
+}
+
+.cv-admin_panel-links button {
+  background-color: #4681f4;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.cv-admin_panel-links button:hover {
+  background-position: 100% 0;
+
+  transition: all .4s ease-in-out;
+}
+
+.cv-admin_panel-menu {
+  display: none;
+  position: relative;
+}
+
+.cv-admin_panel-menu_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: start;
+  background: #252525;
+  padding: 2rem 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  min-height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cv-admin_panel-menu_container-links li {
+  margin-bottom: 2rem;
+  list-style: none;
+  color: aqua;
+}
+
+.cv-admin_panel-menu_container-links ul {
+  margin-left: -10px
+}
+
+.cv-admin_panel-menu_container-links button {
+
+  background-color: #4681f4;
+  color: white;
+
+  padding: 1rem 2rem;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 740px) {
+  .cv-admin_panel-links {
+    display: none;
+  }
+
+  .cv-admin_panel-menu {
+    display: block;
+  }
+}
