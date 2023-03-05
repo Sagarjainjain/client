@@ -81,7 +81,7 @@
   .cv-homepage-genre-cards {
     padding: 1rem 1rem;
     font-size: 0.75rem;
-    margin-right: 0.5rem;
+    gap: 1rem;
   }
   .cv-homepage-genre h2 {
     font-size: 1.5rem;
