@@ -1,0 +1,51 @@
+.cv-search_movies {
+    width: 15%;
+    background-color: white;
+    max-height: 375px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+/* .cv-search_movies_media {
+    width: 100%;
+    
+} */
+.cv-search_movies_media img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.cv-search_movies_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;   
+}
+.cv-search_movies_title-rating {
+    display: flex;
+    
+}
+@media only screen and (min-width: 275px) and (max-width: 480px) {
+    .cv-search_movies {
+        width: 40%;
+    }
+    .cv-search_movies_title {
+        font-size: 1rem;
+            display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5rem; 
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .cv-search_movies_title {
+        font-size: 0.5rem;
+            display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5rem; 
+    }
+
+}

@@ -1,0 +1,91 @@
+.cv-search-box {
+  background: #283048;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  max-height: 600px;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.cv-search-box_input {
+  width: 100%;
+  display: flex;
+  margin: 2rem 0 1rem;
+  padding: 1rem 3rem;
+}
+.cv-search-box_input input {
+  flex: 1;
+  width: 100%;
+  min-height: 50px;
+
+  border-radius: 5px 0px 0px 5px;
+  outline: 0;
+  padding: 1rem 1rem;
+  border: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.cv-search-box_input button {
+  flex: 0.2;
+  /* padding: 0 1rem; */
+    width: 100%;
+  min-height: 50px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  background-color: #ffde59;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: 0;
+  border: 0;
+}
+.cv-search-box_movies {
+    background: #283048;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem 0;
+}
+ .carousel-slider {
+  height: 400px;
+}
+
+
+@media only screen and (min-width: 275px) and (max-width: 480px) {
+    .cv-search-box_input {
+        margin: 0;
+    }
+    .cv-search-box_input input {
+        padding: 0rem 1rem;
+        font-size: 0.75rem;
+    }
+    .cv-search-box_input button {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+        .cv-search-box_input {
+        margin: 0;
+    }
+    .cv-search-box_input input {
+        padding: 0rem 1rem;
+        font-size: 1rem;
+    }
+    .cv-search-box_input button {
+        font-size: 1rem;
+    }
+}
